@@ -1,0 +1,133 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.zype-core.com:3000/video_sources?page=0&per_page=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Zype-Key:
+      - NCl-IcyAvN0WzxIDrcqIqg
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - ! '"249c2961451d594b5ce67b15ab0d7c93"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - request_method=GET; path=/
+      X-Request-Id:
+      - 132236b9-8cb4-462c-83e6-314b9d5c16a6
+      X-Runtime:
+      - '0.112590'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":[{"_id":"5463e4324c616e21271e0000","created_at":"2014-11-12T17:50:27.088-05:00","deleteable":true,"editable":true,"guid":"UCWPQB43yGKEum3eW0P9N_nQ","name":"HBO
+        Boxing","provider_id":"5429b1cb69702d2f7c1a0000","refreshed_at":"2014-11-12T17:50:27.277-05:00","site_id":"545956c44c616e3436000000","updated_at":"2014-11-12T17:51:52.451-05:00","video_count":0},{"_id":"545957134c616e0a98200000","created_at":"2014-11-04T17:45:39.698-05:00","deleteable":true,"editable":true,"guid":"UC-m-uTkiq2NPPPUiq6HftIg","name":"Grantland
+        Podcasts","provider_id":"5429b1cb69702d2f7c1a0000","refreshed_at":null,"site_id":"545956c44c616e3436000000","updated_at":"2014-11-04T17:46:00.345-05:00","video_count":0},{"_id":"545957e34c616e0a98220000","created_at":"2014-11-04T17:49:08.008-05:00","deleteable":true,"editable":true,"guid":"UC3XTzVzaHQEd30rQbuvCtTQ","name":"John
+        Oliver","provider_id":"5429b1cb69702d2f7c1a0000","refreshed_at":null,"site_id":"545956c44c616e3436000000","updated_at":"2014-11-04T17:49:08.008-05:00","video_count":0}],"pagination":{"current":1,"previous":null,"next":null,"per_page":10,"pages":1}}'
+    http_version: 
+  recorded_at: Fri, 26 Dec 2014 20:02:10 GMT
+- request:
+    method: put
+    uri: http://api.zype-core.com:3000/video_sources/545957e34c616e0a98220000?video_source%5Bguid%5D=UC3XTzVzaHQEd30rQbuvCtTQ&video_source%5Bname%5D=John%20OliverNOT
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Zype-Key:
+      - NCl-IcyAvN0WzxIDrcqIqg
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - ! '"7c0bbe6aade6e39fafb143ced4433f88"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - request_method=PUT; path=/
+      X-Request-Id:
+      - c12812a7-3a1f-4653-8d67-7589fee85acd
+      X-Runtime:
+      - '0.749242'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":{"_id":"545957e34c616e0a98220000","created_at":"2014-11-04T17:49:08.008-05:00","deleteable":true,"editable":true,"guid":"UC3XTzVzaHQEd30rQbuvCtTQ","name":"John
+        OliverNOT","provider_id":"5429b1cb69702d2f7c1a0000","refreshed_at":null,"site_id":"545956c44c616e3436000000","updated_at":"2014-12-26T15:02:10.847-05:00","video_count":0}}'
+    http_version: 
+  recorded_at: Fri, 26 Dec 2014 20:02:10 GMT
+- request:
+    method: get
+    uri: http://api.zype-core.com:3000/video_sources?page=0&per_page=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Zype-Key:
+      - NCl-IcyAvN0WzxIDrcqIqg
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - ! '"f82833efd9c610e93f24ae60b518eb94"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - request_method=GET; path=/
+      X-Request-Id:
+      - aa52b547-5abf-4cbd-8f52-7b72abefcf0d
+      X-Runtime:
+      - '0.120274'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! '{"response":[{"_id":"5463e4324c616e21271e0000","created_at":"2014-11-12T17:50:27.088-05:00","deleteable":true,"editable":true,"guid":"UCWPQB43yGKEum3eW0P9N_nQ","name":"HBO
+        Boxing","provider_id":"5429b1cb69702d2f7c1a0000","refreshed_at":"2014-11-12T17:50:27.277-05:00","site_id":"545956c44c616e3436000000","updated_at":"2014-11-12T17:51:52.451-05:00","video_count":0},{"_id":"545957134c616e0a98200000","created_at":"2014-11-04T17:45:39.698-05:00","deleteable":true,"editable":true,"guid":"UC-m-uTkiq2NPPPUiq6HftIg","name":"Grantland
+        Podcasts","provider_id":"5429b1cb69702d2f7c1a0000","refreshed_at":null,"site_id":"545956c44c616e3436000000","updated_at":"2014-11-04T17:46:00.345-05:00","video_count":0},{"_id":"545957e34c616e0a98220000","created_at":"2014-11-04T17:49:08.008-05:00","deleteable":true,"editable":true,"guid":"UC3XTzVzaHQEd30rQbuvCtTQ","name":"John
+        OliverNOT","provider_id":"5429b1cb69702d2f7c1a0000","refreshed_at":null,"site_id":"545956c44c616e3436000000","updated_at":"2014-12-26T15:02:10.847-05:00","video_count":0}],"pagination":{"current":1,"previous":null,"next":null,"per_page":10,"pages":1}}'
+    http_version: 
+  recorded_at: Fri, 26 Dec 2014 20:02:10 GMT
+recorded_with: VCR 2.9.3
